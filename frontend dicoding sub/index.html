@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warships</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+<header>
+    <div class="nav">
+        <h2>WARSHIPS</h2>
+        <nav>
+            <input type="checkbox" id="nav-toggle">
+            <ul class="navLink">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Type">Type</a></li>
+                <li><a href="#Picture">Picture</a></li>
+                <li><a href="#Profile">Profile</a></li>
+            </ul>
+            <label for="nav-toggle" class="nav-icon">
+                <div class="line-icon"></div>
+                <div class="line-icon"></div>
+                <div class="line-icon"></div>
+            </label>
+        </nav>
+    </div>
+    <div class="jumbotron" id="Home"></div>
+    <h1>About Warships</h1>
+    <p>Kapal yang digunakan untuk 
+    kepentingan militer atau angkatan bersenjata.
+    </p>
+    <a href="#Type" class="btn">More</a>
+</header>
+
+<main>
+    <div class="container">
+     <div class="heading" id="Type">
+        <h2>Tipe Kapal</h2>
+     </div>
+     <span class="line"></span>
+        <article class="content white bluebg">
+         <div class="box w70">
+            <h3 class="blackB">Destroyer</h3>
+            <p>Merupakan kapal perang yang mampu bergerak cepat serta 
+                lincah dalam bermanuver. Fungsi kapal perusak adalah 
+                memproteksi armada kapal perang yang berukuran lebih 
+                besar seperti kapal induk (carrier) atau capital warship 
+                kapal tempur (battleship) atau kapal penjelajah (cruiser) 
+                dari ancaman serangan peralatan perang yang lebih kecil 
+                seperti kapal boat torpedo, kapal selam atau pesawat terbang.
+            </p>
+         </div>
+         <div class="w30">
+             <img src="./assets/img/1.png" alt="Destroyer" class="zoom">
+         </div>
+        </article>
+        <article class="content black">
+            <div class="w30">
+                <img src="./assets/img/2.png" alt="Cruiser" class="zoom">
+            </div>
+            <div class="box w70">
+               <h3 class="whiteB">Cruiser</h3>
+               <p>Jenis kapal perang. Istilah ini telah digunakan selama beberapa 
+                   ratus tahun, dan memiliki arti yang berbeda sepanjang periode ini. 
+                   Selama zaman pelayaran, istilah "jelajah"(cruising) mengacu pada 
+                   jenis misi tertentu - patroli independen, perlindungan perdagangan, 
+                   atau penyerbuan - bersama dengan fregat dan sloop. Kapal penjelajah 
+                   modern umumnya adalah kapal terbesar dalam armada setelah kapal induk, 
+                   dan biasanya dapat melakukan beberapa peran.
+               </p>
+            </div>
+        </article>
+        <article class="content white bluebg">
+            <div class="box w70">
+               <h3 class="blackB">Battleship</h3>
+               <p>Kapal perang besar berzirah dengan baterai utama yang terdiri atas 
+                   meriam berkaliber besar. Kapal tempur lebih besar, dengan persenjataan
+                   dan pelindung yang lebih baik, daripada kapal penjelajah maupun kapal 
+                   perusak. Sebagai kapal bersenjata terbesar dalam suatu armada, 
+                   kapal tempur digunakan sebagai pemegang komando laut dan melambangkan 
+                   puncak kekuatan laut suatu bangsa sejak sekitar tahun 1875 hingga 
+                   Perang Dunia II.
+               </p>
+            </div>
+            <div class="w30">
+                <img src="./assets/img/3.png" alt="Battleship" class="zoom">
+            </div>
+           </article>
+           <article class="content black">
+               <div class="w30">
+                   <img src="./assets/img/4.png" alt="Carrier" class="zoom">
+               </div>
+               <div class="box w70">
+                  <h3 class="whiteB">Aircraft Carrier</h3>
+                  <p>Kapal perang yang memuat pesawat tempur dalam jumlah besar. Tugasnya 
+                      adalah memindahkan kekuatan udara ke dalam armada angkatan laut 
+                      sebagai pendukung operasi-operasi angkatan laut. Selain itu juga 
+                      digunakan sebagai pusat komando operasi dan sebagai kekuatan 
+                      detterence atau memberikan efek gentar pada lawan. Sebagai kapal 
+                      yang membawa pesawat, kapal induk memiliki fleksibilitas tempur 
+                      yang lebih tinggi dibanding jenis kapal perang lainnya.
+                  </p>
+               </div>
+           </article>
+    </div>
+
+    <div class="heading"  id="Picture">
+        <h2>Picture of World War 2 Ships</h2>
+    </div>
+    <span class="line"></span>
+
+    <div class="slideshow-container">
+
+        <div class="image-container">
+          <img src="./assets/img/caro-alaska.jpg" class="image fade" />
+        </div>
+        <div class="image-container">
+          <img src="./assets/img/caro-fletcher.jpg" class="image fade" />
+        </div>
+        <div class="image-container">
+          <img src="./assets/img/caro-world-war-ii-ship.jpg" class="image fade" />
+        </div>
+        <div class="image-container">
+            <img src="./assets/img/caro-uss-saratoga-cv-3.jpg" class="image fade" />
+          </div>
+    
+    
+        <div class="dot-container">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+    
+    </div>
+    
+   <aside>
+       <article class="profile" id="Profile">
+        <figure>
+           <img src="./assets/img/copy.jpg" alt="">
+        </figure>
+        <figcaption>
+           <h4>Rivaldo Gabrielleo</h4>
+           <p>Author</p>
+        </figcaption>
+       </article>
+   </aside>
+</main>
+
+<div class="to-top">
+    <a href="#Home" class="btn-top">To Top</a>
+</div>
+<footer>
+    <p>Copyright &#169; Rivaldo Gabrielleo</p>
+</footer>
+
+<script src="./js/script.js"></script>
+</body>
+</html>
